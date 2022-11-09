@@ -1,0 +1,361 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.bgimg{
+	background-image: url("main.jpg");
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+}
+.logo{
+
+	width: 100%;
+	height: 100px;
+	
+}
+.logoimg img{
+
+	padding-top: 5px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	width: 90px;
+	height: 90px;
+	float: left;
+}
+
+.text{
+	width: 80%;
+	line-height: 80px;
+	float: left;
+}
+
+.text h4{
+	padding-top: 30px;
+	padding-left: 20px;
+	font-weight: bold;
+	color: white;
+	font-size: 48px;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 3px 3px #000000;
+	text-transform: uppercase;
+}
+
+.menu{
+	width: 100%;
+	height: 50px;
+	background-color: #000000;
+	margin:0px;
+	padding:0px;
+}
+
+
+.menu.menunav{
+	
+	height: 50px;
+	width:100%;
+	
+}
+
+.menunav ul{
+	padding:10px;
+	float: right;
+	
+	
+	
+}
+
+.menunav ul li{
+	background-color: #000000;
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	outline-style:double;
+	outline-color:black;
+	outline-width: 2px;
+	font-weight: bold;
+	line-height: 30px;
+	line-width: 50px;
+	margin-right: 120px;
+	
+	text-transform: uppercase;
+
+}
+.menunav ul li:hover{
+	background: #ffff00;
+}
+
+.menunav ul li a{
+	color:gold;
+
+}
+
+.menunav ul li a:hover{
+	color: black;
+
+}
+.abt{
+	float: right;
+	width: 22%;
+	height: 30%;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	background-color: #ccffff;
+	clear:right;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.abt h2{
+	text-align: center;
+	background-color: #3399cc;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	outline-style:double;
+	outline-color:green;
+	outline-width: 2px;
+	font-weight: bold;
+	line-height: 30px;
+	line-width: 50px;
+	color: white;
+	text-shadow: 2px 2px #003366;
+	
+}
+.abt p{
+	margin: 20px;	
+	text-shadow: 1px 1px #003366;
+
+}
+
+.mvc{
+	width: 68%;
+	height: 65%;
+	background-image:url('image/bg1.jpg'); 
+	margin-left: 15px;
+	margin: 10px;
+	padding: 20px;
+	font-size: 100%;
+	
+}
+	
+
+h1{
+	font-color: white;
+	margin: 10px;
+	text-shadow: 2px 2px #003366;
+	color: white;
+	
+}
+.mvc p{
+	padding: 10px;
+	margin: 10px;
+	justify: center;
+	background-color: white;
+	text-shadow: 1px 1px #003366;
+}
+.bottom{
+	width: 100%;
+	height: 50px;
+	background-color:#000000;
+}
+.bottom p{
+	text-align: center;
+	padding: 10px;
+	padding-top: 15px;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+.gallery{
+	float: right;
+	width: 584px;
+	height: 188px;
+	background-color: white;
+	margin-right: 70px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	
+	
+}
+
+.overviewleft{
+	float: left;
+	clear:left;
+	width: 68%;
+	height: 207px;
+	background-color: white;
+	margin:20px;
+	margin-left:200px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+h2{
+	text-align: right;
+	background-color: #175f1a;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 30px;
+	line-width: 50px;
+	color: white;
+	
+}
+.aboutfloat{
+	float: left;
+	width: 45%;
+	height: 205px;
+	background-color:white;
+	margin-left:40px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	border-radius: 20px;
+}
+.events{
+	float: left;
+	width: 48%;
+	height: 200px;
+	background-color: white;
+	margin:10px;
+	margin-top: 15px;
+}
+.aboutfloat p{
+	text-align: center;
+	font-size: 13px;
+	background-color: #84ea89;
+	color: black;
+	text-shadow: 1px 1px white;
+	margin: 10px;
+	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	Margin-top: 20px;
+}
+.aboutft{
+	
+}
+.aboutft p{
+	text-align: center;
+	font-size: 20px;
+	text-shadow: 1px 1px white;
+	Margin-top: 80px;
+}
+
+
+/*-- contact --*/
+section.contact-w3ls {
+	background:url(../images/contact.jpg) no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	-moz-background-size:100% 100%;
+	-o-background-size:100% 100%;
+	-ms-background-size:100% 100%;
+}
+section.contact-w3ls p.contact-agile1 {
+    font-size: 15px;
+	letter-spacing: 1px;
+    font-weight: normal;
+    padding-bottom: 10px;
+    line-height: 29px;
+    color: #fff;
+}
+section.contact-w3ls p.contact-agile1 strong {
+    font-family: 'Federo', sans-serif;
+    letter-spacing: 1.5px;
+    color: #ffce14!important;
+	font-size: 16px;
+}
+section.contact-w3ls p.contact-agile1 a {
+	color:#fff;
+}
+section.contact-w3ls .contact-agileits,.contact-w3-agile1 {
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 20px 35px;
+}
+section.contact-w3ls h4 {
+	font-size:35px;
+	letter-spacing: 1.5px;
+	font-weight:normal;
+	color:#fff;
+	padding-bottom:20px;
+	font-family: 'Federo', sans-serif;
+	text-align:center;
+}
+section.contact-w3ls p.contact-agile2 {
+	font-size:16px;
+	font-weight:normal;
+	padding-bottom:20px;
+	line-height:30px;
+	color:#ffce14;
+	text-align:center;
+}
+section.contact-w3ls label.contact-p1 {
+    font-size: 17px;
+	letter-spacing: 1px;
+    font-weight: 300;
+    color:#fff;
+    padding-bottom: 10px;
+	font-family: 'Federo', sans-serif;
+}
+.form-group {
+    margin-bottom: 5px;
+}
+section.contact-w3ls p.help-block {
+    color:#ff0500!important;
+}
+section.contact-w3ls input#name, section.contact-w3ls input#email, section.contact-w3ls input#phone  {
+	height:37px;
+}
+section.contact-w3ls input#name, section.contact-w3ls input#email, section.contact-w3ls input#phone {
+	font-size:17px;
+	font-weight:normal;
+	color:#fff;
+	background-color:transparent;
+	border-radius:0;
+	border-color:#fff;
+	font-family: 'Lato', sans-serif;
+}
+section.contact-w3ls button.btn.btn-primary {
+	color:#ffce14;
+    background-color:transparent;
+    border: 2px solid #ffce14;
+    font-size: 17px;
+    padding: 10px 20px;	
+	width:100%;
+	font-family: 'Federo', sans-serif;
+	margin: 25px 0 8px;
+}
+section.contact-w3ls button.btn.btn-primary:hover {
+	color: #fff;
+    background-color:#ffce14;
+    border: 2px solid #ffce14;
+}
+input::-webkit-input-placeholder {
+color: #fff !important;
+} 
+input:-moz-placeholder { /* Firefox 18- */
+color: #fff !important;  
+} 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #fff !important;  
+} 
+input:-ms-input-placeholder {  
+color: #fff !important;  
+}
+.footer-icons-agileinfo{
+	margin-left:0!important;
+}
+.contact-w3-agile1 iframe {
+    width: 100%;
+    height: 190px;
+    margin-top: 1.5em;
+    outline: none;
+    border: none;
+}
+/*-- /contact --*/
